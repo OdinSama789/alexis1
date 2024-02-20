@@ -4,7 +4,7 @@ package EXP1GiovanniAlexisAguirreDavalos;
 
 public class pregunta5 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner Scanner = new Scanner(System.in);
         
         // Declarar variables para contar los números positivos y negativos
         int positivos = 0;
@@ -13,7 +13,7 @@ public class pregunta5 {
         // Leer los diez números
         for (int i = 1; i <= 10; i++) {
             System.out.print("Ingrese el número #" + i + ": ");
-            int numero = scanner.nextInt();
+            int numero = Scanner.nextInt();
             
             // Verificar si el número es positivo o negativo
             if (numero > 0) {
